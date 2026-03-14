@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Melody - Partitura Eterna</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="skyCanvas"></canvas>
+    
+    <div class="main-ui">
+        <div id="score-tag">MIMOS: <span id="score">0</span></div>
+
+        <div class="top-section">
+            <p class="label">MEDIDOR DE AMOR</p>
+            <div class="bar-parent" id="bar-parent">
+                <div id="bar-fill"></div>
+                <div id="overload-text">!! OVERLOAD !!</div>
+            </div>
+            <p id="porcentaje-amor">0%</p>
+        </div>
+
+        <div id="lyric-container">
+            <p id="lyric-text"></p>
+        </div>
+
+        <div id="game-area"></div>
+
+        <div class="bottom-section">
+            <p id="texto-amor">Sincronizando universo...</p>
+        </div>
+    </div>
+
+    <div id="mensaje-final" class="hidden">
+        <div class="final-box">
+            <h2 class="alert">ALERTA DE AMOR</h2>
+            <p>EL AMOR NO SE PUEDE MEDIR,<br>ES DEMASIADO PARA ESTE MUNDO.</p>
+            <div class="line"></div>
+            <p class="dedicatoria">Tu eres lo mejor en mi vida y eres la razón de mi felicidad.</p>
+            <p class="signature">Para: Melody ❤️</p>
+        </div>
+    </div>
+
+    <div id="intro">
+        <button id="start-heart">❤️</button>
+        <p>PARA MI PERSONA ESPECIAL</p>
+    </div>
+
+    <audio id="musica" src="MiPartituraEterna.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
